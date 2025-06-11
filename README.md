@@ -181,12 +181,6 @@ python result_plot.py \
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgements
 
 * MODIS data provided by [NASA Earthdata](https://earthdata.nasa.gov/)
