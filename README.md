@@ -31,16 +31,32 @@ Additional components include:
 ## 🧩 Method Frameworks
 
 **Figure 1: POD with Temporal Prediction**
-<img src="Fig/pod_with_temporal_prediction.png" alt="POD framework" width="600"/>
+<p align="center">
+  <img src="Fig/pod_with_temporal_prediction.png" alt="POD with Temporal Prediction" width="600"/>
+</p>
+<p align="center"><b>Figure 1:</b> Modeling and Prediction with POD and Temporal Forecasting</p>
+
 
 **Figure 2: SINDy for Dynamic Modeling**
-![image](Fig/sindy.png)
+<p align="center">
+  <img src="Fig/sindy.png" alt="SINDy Modeling" width="600"/>
+</p>
+<p align="center"><b>Figure 2:</b> SINDy Framework for Sparse Dynamic Modeling</p>
+
 
 **Figure 3: SVDM for State Variable Discovery**
-![image](Fig/SVDM.png)
+<p align="center">
+  <img src="Fig/SVDM.png" alt="SVDM Framework" width="600"/>
+</p>
+<p align="center"><b>Figure 3:</b> State Variable Discovery Model (SVDM)</p>
+
 
 **Figure 4: Fire Anomaly Detection**
-![image](Fig/anomoly_detection.png)
+<p align="center">
+  <img src="Fig/anomoly_detection.png" alt="Anomaly Detection" width="600"/>
+</p>
+<p align="center"><b>Figure 4:</b> Threshold-Based Fire Anomaly Detection Workflow</p>
+
 
 > POD with temporal imputation follows the same steps as POD prediction, but uses 1D interpolation instead of forecasting.
 
