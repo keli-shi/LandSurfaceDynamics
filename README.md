@@ -31,7 +31,7 @@ Additional components include:
 ## 🧩 Method Frameworks
 
 **Figure 1: POD with Temporal Prediction**
-![image](Fig/pod_with_temporal_prediction.png)
+<img src="Fig/pod_with_temporal_prediction.png" alt="POD framework" width="600"/>
 
 **Figure 2: SINDy for Dynamic Modeling**
 ![image](Fig/sindy.png)
