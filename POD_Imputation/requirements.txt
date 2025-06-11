@@ -1,0 +1,9 @@
+numpy==1.19.5
+matplotlib==3.3.4
+scikit-image==0.17.2
+scikit-learn==0.22.1
+torch @ file:///C:/Users/skl/Desktop/torch-1.7.0%2Bcu110-cp36-cp36m-win_amd64.whl
+torchaudio==0.10.2
+torchkeras==1.5
+torchvision==0.11.3
+plotly==5.18.0
