@@ -63,8 +63,8 @@ Additional components include:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/keli-shi/LandSurfaceDynamics.git
+cd LandSurfaceDynamics
 pip install -r requirements.txt
 ```
 
