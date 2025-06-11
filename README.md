@@ -1,6 +1,6 @@
 # 🌍 **Satellite Image Time Series-Driven Land Surface Dynamic Modeling and Prediction**
 
-> Modeling, interpolating, and detecting changes in land surface dynamics using MODIS-based image time series and data-driven methods.
+> Modeling, prediction, imputation, and anomaly detection of land surface dynamics using satellite image time series.
 
 ---
 
