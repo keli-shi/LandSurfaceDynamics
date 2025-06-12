@@ -203,7 +203,21 @@ python result_plot.py \
 ## 📚 References
 
 ```bibtex
-[1] Tang P, Zhang Z, Shi K, Kang M, Zhao Z, Zhao J, Yan D. (2025). Remote Sensing Time Series Driven Modeling of Land Surface Dynamics. National Remote Sensing Bulletin, XX(X): 1–23. DOI: 10.11834/jrs.20254372.
+@article{Tang2025Remote,
+title={遥感时间序列驱动的地表动态变化过程建模},
+author={唐娉 and 张正 and 史科理 and 亢明 and 赵智韬 and 赵俊芳 and 闫冬梅},
+journal={遥感学报},
+pages={1-23},
+year={2025},
+doi={10.11834/jrs.20254372},
+}
 
-[2] Kang M, Zhang Z, Zhao Z, Shi K, Zhao J, Tang P. (2025). Temporal–Spatial Partial Differential Equation Modeling of Land Cover Dynamics via Satellite Image Time Series and Sparse Regression. Remote Sens. 17(7), 1211. https://doi.org/10.3390/rs17071211
+@article{kang2025temporal,
+  title={Temporal--Spatial Partial Differential Equation Modeling of Land Cover Dynamics via Satellite Image Time Series and Sparse Regression.},
+  author={Kang, Ming and Zhang, Zheng and Zhao, Zhitao and Shi, Keli and Zhao, Junfang and Tang, Ping},
+  journal={Remote Sensing},
+  volume={17},
+  number={7},
+  year={2025}
+}
 ```
