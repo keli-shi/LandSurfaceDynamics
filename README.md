@@ -65,6 +65,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/keli-shi/LandSurfaceDynamics.git
 cd LandSurfaceDynamics
+cd [SUBDIR]
 pip install -r requirements.txt
 ```
 
