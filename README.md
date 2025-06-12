@@ -73,6 +73,8 @@ pip install -r requirements.txt
 
 ### POD with Temporal Prediction
 
+Directly use the provided Jupyter notebook (`.ipynb`) or:
+
 ```bash
 python POD_Predictor.py \
   --data_path ningxia-mod13a2_2011-2020.npy \
@@ -157,7 +159,7 @@ tensorboard --logdir logs_ndvi_encoder-decoder-64_1/lightning_logs/ --port 6006
 
 ### POD with Temporal Imputation
 
-Directly use the provided Jupyter notebook (`.ipynb`) for missing data reconstruction.
+Directly use the provided Jupyter notebook (`.ipynb`) for data imputation.
 
 ---
 
