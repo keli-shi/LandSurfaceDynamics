@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     mask_files = [f for f in os.listdir(args.folder_mask_dir) if f.endswith('.tif')]
     error_files = [f for f in os.listdir(args.folder_error_dir) if f.endswith('abs_error.tif')]
-    # 假设
+
     error_data_list = []  # 每个为 (46, 100, 100)
     true_mask_list = []
     # 构建误差文件索引

@@ -171,29 +171,17 @@ class Net(nn.Module):
         x = x.to(device)
         batch_size = x.shape[0] # 获取批次大小
 
-        # 初始化隐层状态
         if hidden is None:
             h_0 = x.data.new(self.num_layers, batch_size, self.hidden_size).fill_(0).float().to(device)
         else:
             h_0 = hidden.to(device)
-        
-
-        # GRU运算
+    
         output, h_0 = self.gru(x, h_0)
-
-        # 获取GRU输出的维度信息
         batch_size, timestep, hidden_size = output.shape
-
-        # 将output变成 batch_size * timestep, hidden_dim
         output = output.reshape(-1, hidden_size)
-
-        # 全连接层
         output = self.fc(output)  # 形状为batch_size * timestep, 1
-
-        # 转换维度，用于输出
         output = output.reshape(timestep, batch_size, -1)
 
-        # 我们只需要返回最后一个时间片的数据即可
         return output[-1].unsqueeze(1)
 
 # 数据预览,第一个时间系数序列
